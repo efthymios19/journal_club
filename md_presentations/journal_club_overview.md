@@ -73,7 +73,7 @@ Note: First slide of the Paper 1 presentation
     ![profiler](md_presentations/images/profiler.webp)<!-- .element: style="display: block; width: 50%; height: 400px; object-fit: contain; margin: 0 auto;" -->
 
     Commercial applications of TDR and FDR profile probes allow the vertical installation to a maximum depth of 1 m below surface ([Babaeian et al., 2025](https://onlinelibrary.wiley.com/doi/abs/10.1002/vzj2.70060); [Nieberding et al., 2023](https://onlinelibrary.wiley.com/doi/abs/10.1002/vzj2.70093)). 
-    1. Provide 6 – 9 measurements within the installation depth. 
+    1. Provide 6 – 9 measurements within the installation depth, 
     2. Spatial resolution: acceptable for conventional agricultural applications, 
     3. Monitoring of complex hydrological processes, such as capillary rise, requires high spatial and temporal resolution of θ even in greater than 1 m depths above shallow groundwater tables. 
     4. In parallel acquisition of soil hydraulic properties till the depth of probe installation ensure the accurate interpretation of sensor values.
