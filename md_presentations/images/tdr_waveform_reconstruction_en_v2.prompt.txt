@@ -1,0 +1,23 @@
+Tool: built-in image_gen; English localization of the second user-supplied figure.
+Output: tdr_waveform_reconstruction_en_v2.png
+
+Use case: text-localization. Edit target: the MOST RECENT attached Greek scientific slide, the one with white background, dotted grid, full equations and references. Create an English translation preserving all scientific content and illustrations. This replaces a previous incomplete figure. Wide high-resolution landscape, white background, clean black typography; remove dotted editor grid and spelling underlines. Keep all content within margins. Preserve instrument perspective and front drawings, pulse icon, oscilloscope, cable, three red rods, waveform graph, sampling circles, segmentation arrows, R L G C circuit, differential equations, discrete equations and bottom references. Use this exact English text where corresponding Greek occurs:
+Top: "Inverse modeling is used to estimate the spatial distribution of volumetric water content θ [L³ L⁻³] along the transmission lines, rather than a single average value over their entire length."
+Instrument labels: "TDR instrument"; "Pulse generator"; "Oscilloscope"; "Synchronization"; "BNC connector"; "50 Ω coaxial cable".
+Graph: "Voltage"; "Time"; "Incident signal"; "Reflected signal"; "Signal superposition"; "Travel time in a three-rod probe".
+Probe labels: "Segments", δz, t (preserve source symbols).
+Circuit retain I(x), I(x+Δx), V(x), V(x+Δx), R, L, G, C, and exact series/shunt topology.
+Differential equations exactly:
+∂V(z,t)/∂z = −R(z)I(z,t) − L(z)∂I(z,t)/∂t
+∂I(z,t)/∂z = −G(z)V(z,t) − C(z)∂V(z,t)/∂t
+Right flow bottom to top:
+"Signal modeling approach — Todoroff (1998); Todoroff and Luk (2001)"
+"Superposition of the incident signal V₊(z,t) and the reflected signal V₋(z,t)"
+"Assumptions: lossless propagation; resistance R and conductance G are neglected. No conductor resistance and no leakage between conductors."
+Top equation caption: "i indexes transmission-line segments; j indexes equal time intervals."
+Discrete equations exactly:
+V₊(i,j) = (1 + ρᵢ)V₊(i − 1,j − 1) − ρᵢV₋(i + 1,j − 1)
+V₋(i,j) = ρᵢV₊(i − 1,j − 1) + (1 − ρᵢ)V₋(i + 1,j − 1)
+References at bottom, legible: "Todoroff, P. (1998). Modeling microwave propagation in soil to calculate a soil water-content profile using time-domain reflectometry. University of Réunion, Saint-Denis. [Title translated from French]"
+"Todoroff, P.; Luk, J.-D. L. S. (2001). Calculation of in situ soil water content profiles from TDR signal traces. Measurement Science and Technology, 12, 27. https://doi.org/10.1088/0957-0233/12/1/304"
+Preserve scientific relations and arrow directions. Do not add new data or claims. All prose English, no Greek prose. Scientific Greek symbols retained. Prioritize legibility and exact equations; spacious alignment; faithful technical figure, not decorative.

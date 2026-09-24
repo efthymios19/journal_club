@@ -1,0 +1,12 @@
+Tool: built-in image_gen; English localization of the user-supplied permeameter figure.
+Output: falling_head_permeameter_en.png
+
+Use case: text-localization. Edit target is the most recent user-attached figure: Greek falling-head permeameter method, central engineering diagrams, and right laboratory photograph. Translate the left text into English, preserve the photo and engineering drawings faithfully, preserving their dimensions and geometry. Remove dotted editor grid throughout and spelling underlines. Clean white background behind text/diagrams, readable black sans serif, high-resolution wide landscape. No invented apparatus, no changed photo composition, no additional claims.
+Exact translated left text:
+"Method: Falling-head permeameter"
+• "Development of an adaptable permeameter cell."
+• "Placement of the sample inside the liner."
+• "Division of samples into 10 cm sections."
+• "Filling one-third of the liner with pourable expanding polyurethane foam to prevent lateral flow."
+• "Saturation with water from the bottom to avoid air entrapment."
+Preserve central panel labels "a.", "b.", "Section A", dimension labels "5 cm", "4.6 cm", "10 cm", "18 cm", "22 cm", "Φ3", "Φ6", with dimensions and arrows at exactly their source components. Keep the original right-side laboratory photograph rather than generating a different setup. No dotted grid, red spellcheck marks, or Greek prose. Do not crop the photo or apparatus or labels. Arrange ample readable left column and tall center drawings and right photo in the same three-part structure.
